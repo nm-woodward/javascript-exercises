@@ -1,21 +1,23 @@
-const add = function() {
+const add = function(a,b) {
+	return a+b;
+};
+
+const subtract = function(a,b) {
+  return a-b;
 	
 };
 
-const subtract = function() {
+const sum = function(arr) {
+ return arr.reduce( (partialSum,a) => partialSum + a, 0);
 	
 };
 
-const sum = function() {
-	
-};
-
-const multiply = function() {
-
+const multiply = function(arr) {
+  return arr.reduce( (partialSum,a) => partialSum * a, 1);
 };
 
 const power = function() {
-	
+	return arr.reduce( (partialSum,a) => partialSum ** a, 1);
 };
 
 const factorial = function() {
